@@ -1,0 +1,598 @@
+{
+    "calendarDetails": {
+        "calendarPricingSummary": {
+            "lowestMonthlyPrice": 152000,
+            "perPassengerAwardPoints": 297000,
+            "perPassengerSaleTotal": {
+                "amount": 11.2,
+                "currency": "USD"
+            }
+        },
+        "calendarSliceTabs": [
+            {
+                "date": "2026-06-19",
+                "destination": "NRT",
+                "origin": "SEA",
+                "perPassengerAwardPoints": 297000
+            }
+        ],
+        "lowestMonthlyPrice": 152000
+    },
+    "calendarMonths": [
+        {
+            "month": "6",
+            "weeks": [
+                {
+                    "days": [
+                        {
+                            "date": null,
+                            "dayOfMonth": null,
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-01",
+                            "dayOfMonth": "1",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-02",
+                            "dayOfMonth": "2",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-03",
+                            "dayOfMonth": "3",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-04",
+                            "dayOfMonth": "4",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-05",
+                            "dayOfMonth": "5",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-06",
+                            "dayOfMonth": "6",
+                            "solution": null,
+                            "validDay": false
+                        }
+                    ]
+                },
+                {
+                    "days": [
+                        {
+                            "date": "2026-06-07",
+                            "dayOfMonth": "7",
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": "2026-06-08",
+                            "dayOfMonth": "8",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": true,
+                                        "perPassengerAwardPoints": 152000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 152000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-09",
+                            "dayOfMonth": "9",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": true,
+                                        "perPassengerAwardPoints": 152000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 152000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-10",
+                            "dayOfMonth": "10",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 450000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 450000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-11",
+                            "dayOfMonth": "11",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 365000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 365000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-12",
+                            "dayOfMonth": "12",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 277000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 277000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-13",
+                            "dayOfMonth": "13",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 304500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 304500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        }
+                    ]
+                },
+                {
+                    "days": [
+                        {
+                            "date": "2026-06-14",
+                            "dayOfMonth": "14",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 312000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 312000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-15",
+                            "dayOfMonth": "15",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 284000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 284000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-16",
+                            "dayOfMonth": "16",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 188000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 188000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-17",
+                            "dayOfMonth": "17",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 211500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 211500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-18",
+                            "dayOfMonth": "18",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 411000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 411000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-19",
+                            "dayOfMonth": "19",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 297000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 297000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-20",
+                            "dayOfMonth": "20",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 187500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 187500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        }
+                    ]
+                },
+                {
+                    "days": [
+                        {
+                            "date": "2026-06-21",
+                            "dayOfMonth": "21",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 245500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 245500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-22",
+                            "dayOfMonth": "22",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": true,
+                                        "perPassengerAwardPoints": 152000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 152000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-23",
+                            "dayOfMonth": "23",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 153000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 153000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-24",
+                            "dayOfMonth": "24",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": true,
+                                        "perPassengerAwardPoints": 152000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 152000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-25",
+                            "dayOfMonth": "25",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 160000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 160000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-26",
+                            "dayOfMonth": "26",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 196500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 196500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 11.2,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-27",
+                            "dayOfMonth": "27",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 202500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 202500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        }
+                    ]
+                },
+                {
+                    "days": [
+                        {
+                            "date": "2026-06-28",
+                            "dayOfMonth": "28",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 184000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 184000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-29",
+                            "dayOfMonth": "29",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 168000
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 168000,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": "2026-06-30",
+                            "dayOfMonth": "30",
+                            "solution": {
+                                "calendarSlices": [
+                                    {
+                                        "lowestPrice": false,
+                                        "perPassengerAwardPoints": 169500
+                                    }
+                                ],
+                                "perPassengerAwardPoints": 169500,
+                                "perPassengerSaleTotal": {
+                                    "amount": 5.6,
+                                    "currency": "USD"
+                                }
+                            },
+                            "validDay": true
+                        },
+                        {
+                            "date": null,
+                            "dayOfMonth": null,
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": null,
+                            "dayOfMonth": null,
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": null,
+                            "dayOfMonth": null,
+                            "solution": null,
+                            "validDay": false
+                        },
+                        {
+                            "date": null,
+                            "dayOfMonth": null,
+                            "solution": null,
+                            "validDay": false
+                        }
+                    ]
+                }
+            ],
+            "year": "2026"
+        }
+    ],
+    "daysOfWeek": [
+        "SUN",
+        "MON",
+        "TUE",
+        "WED",
+        "THU",
+        "FRI",
+        "SAT"
+    ],
+    "error": "",
+    "responseMetadata": {
+        "account": {
+            "cartId": "",
+            "companionAllowed": false,
+            "loyaltyTier": "",
+            "nextGen": false,
+            "premiumCreditCardHolder": false,
+            "programDiscountCode": ""
+        },
+        "basicEconomyPlusOffered": false,
+        "businessPlusOffered": false,
+        "cached": false,
+        "corporateFare": false,
+        "departureDate": "2026-06-19",
+        "direction": "DEPART",
+        "duration": 620,
+        "international": false,
+        "longHaulMarket": false,
+        "mixedCabin": false,
+        "mixedFare": false,
+        "multiCity": false,
+        "notifications": [],
+        "pricedSlice": 1,
+        "pricedSliceIndex": 0,
+        "resultId": "kd7t9wXmca2iuSUkyTVLvzod7",
+        "roundTrip": false,
+        "searchAirports": [],
+        "searchOptions": {
+            "locale": "en-US",
+            "pointOfSale": "US"
+        },
+        "searchType": "Award",
+        "selectedProductChanged": false,
+        "sessionExpirationTime": 0,
+        "sessionId": "xwo0kY2nO4nSOWpj0C7Q0GsJl",
+        "showFlagship": false,
+        "sliceCount": 0,
+        "solutionSet": "0bXn6AkMAbzOPuSXEXhM956",
+        "tripType": "ONE_WAY",
+        "updatedSort": false
+    },
+    "slices": [],
+    "utag": {
+        "channel": "Booking",
+        "event_name": "award",
+        "page_name": "Choose Flights",
+        "site_country": "US",
+        "site_currency": "USD",
+        "site_indicator": "AAcom",
+        "site_language": "EN",
+        "tealium_environment": "qa",
+        "tealium_profile": "main"
+    }
+}

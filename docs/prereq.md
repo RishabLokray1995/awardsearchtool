@@ -130,13 +130,13 @@ xattr -cr .venv/lib/python*/site-packages/playwright/driver/node
 **Search the next N days (DATE_RANGE_DAYS from config):**
 
 ```bash
-.venv/bin/python3 run_matrix_search.py
+.venv/bin/python3 alaska/run_alaska_search.py
 ```
 
 **Search a specific date only:**
 
 ```bash
-.venv/bin/python3 run_matrix_search.py --date 2026-09-16
+.venv/bin/python3 alaska/run_alaska_search.py --date 2026-09-16
 ```
 
 Each search takes 30–90 seconds per route/date combination due to the headless browser load and the anti-detection delay (8–15s between requests).
@@ -146,7 +146,7 @@ Each search takes 30–90 seconds per route/date combination due to the headless
 ## 10. Verify results were saved
 
 ```bash
-sqlite3 output/awards.db "SELECT flight_date, flight_number, cabin, miles, taxes_usd, seats FROM awards ORDER BY miles LIMIT 20;"
+sqlite3 output/alaska_awards.db "SELECT flight_date, flight_number, cabin, miles, taxes_usd, seats FROM alaska_awards ORDER BY miles LIMIT 20;"
 ```
 
 If the table is empty after a run, it usually means the date searched had no award availability on that route — try a date 2–3 months out.
@@ -160,5 +160,5 @@ If the table is empty after a run, it usually means the date searched had no awa
 | `ModuleNotFoundError: playwright` | Wrong Python interpreter | Use `.venv/bin/python3`, not `python3` |
 | `Executable doesn't exist` | Playwright browser not installed | Re-run step 5 |
 | `fetch_flight_rows` returns `[]` | Bot detection or no availability | Try a date further out; run again after a few minutes |
-| `sqlite3: no such table: awards` | DB not initialized yet | Run the tool once; `db.py` creates the table on first run |
+| `sqlite3: no such table: alaska_awards` | DB not initialized yet | Run the tool once; `db.py` creates the table on first run |
 | `SyntaxError: unsupported operand` | Python < 3.10 | Install Python 3.10+ (step 1) |

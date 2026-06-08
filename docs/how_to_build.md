@@ -13,13 +13,13 @@ awardsearchtool/
 │   └── parser.py       ← flattens airline-specific rows → standard award dicts
 ├── config.py           ← search matrix (origins, destinations, date range)
 ├── db.py               ← SQLite schema + insert helpers (shared, do not modify)
-├── run_matrix_search.py ← orchestrator (shared, import your new scraper here)
-├── output/awards.db    ← results land here
+├── alaska/run_alaska_search.py ← Alaska orchestrator
+├── output/alaska_awards.db    ← results land here
 └── docs/
     └── how_to_build.md ← this file
 ```
 
-`db.py` and `run_matrix_search.py` are airline-agnostic. The only airline-specific work is in the `alaska/` package. For a new airline, create a new package (e.g. `united/`) with the same two files: `scraper.py` and `parser.py`.
+`db.py` and the runner scripts are airline-specific. For a new airline, create a new package (e.g. `united/`) with the same two files: `scraper.py` and `parser.py`.
 
 ---
 
@@ -252,7 +252,7 @@ def fetch_flight_rows(origin, destination, date, cabin="coach"):
     resp = _session.post(_API_URL, json=_build_payload(origin, destination, date, cabin),
                          headers=headers, timeout=30)
     resp.raise_for_status()
-    return resp.json()  # return the raw response; parser will normalize it
+    return resp.json()  # return the raw response_calendar; parser will normalize it
 ```
 
 **Notes for JSON API pattern:**
@@ -309,7 +309,7 @@ All cabins come back in one request — no need to loop per cabin. Other airline
 
 ## Step 5 — Wire into the orchestrator
 
-Edit `run_matrix_search.py` to import your new module:
+Edit `alaska/run_alaska_search.py` to import your new module:
 
 ```python
 # Replace these two lines:
@@ -329,7 +329,7 @@ Everything else (`db.py`, `config.py`, the matrix loop, delays, SQLite insert) i
 
 Apply these regardless of which pattern you use:
 
-- **Random delay** between requests: `time.sleep(random.uniform(8, 15))` — already in `run_matrix_search.py`.
+- **Random delay** between requests: `time.sleep(random.uniform(8, 15))` — already in `alaska/run_alaska_search.py`.
 - **Rotate User-Agent**: use `fake_useragent.UserAgent().random` on every request.
 - **Session handshake**: always visit the airline homepage first (Playwright) before hitting any API endpoint — this sets tracking cookies that make the session look legitimate.
 - **Do not parallelize**: run searches sequentially. Concurrent requests from one IP flag immediately.
