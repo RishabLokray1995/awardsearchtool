@@ -1,3 +1,4 @@
+import argparse
 import itertools
 import random
 import time
@@ -8,9 +9,9 @@ from alaska.scraper import fetch_flight_rows
 from db import init_db, insert_awards
 
 
-def run() -> None:
+def run(date: str | None = None) -> None:
     conn = init_db(config.DB_PATH)
-    dates = config.get_date_range()
+    dates = [date] if date else config.get_date_range()
 
     combinations = list(itertools.product(config.ORIGINS, config.DESTINATIONS, dates))
     total = len(combinations)
@@ -47,4 +48,11 @@ def run() -> None:
 
 
 if __name__ == "__main__":
-    run()
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--date",
+        metavar="YYYY-MM-DD",
+        help="Search only this date. Omit to use DATE_RANGE_DAYS from config.",
+    )
+    args = parser.parse_args()
+    run(date=args.date)
