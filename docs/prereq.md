@@ -162,3 +162,103 @@ If the table is empty after a run, it usually means the date searched had no awa
 | `fetch_flight_rows` returns `[]` | Bot detection or no availability | Try a date further out; run again after a few minutes |
 | `sqlite3: no such table: alaska_awards` | DB not initialized yet | Run the tool once; `db.py` creates the table on first run |
 | `SyntaxError: unsupported operand` | Python < 3.10 | Install Python 3.10+ (step 1) |
+
+---
+
+## Southwest Airlines — bot-detection fixes (Akamai)
+
+Southwest protects its booking and calendar APIs with Akamai bot detection.
+A plain headless Playwright session is reliably blocked, causing scrapers to
+silently return no data even though the awards are visible in a real browser.
+The following measures were discovered through trial and error and **must all
+be applied together** — removing any one of them may cause silent failures.
+
+### What was failing
+
+The original scraper used `page.on("response", …)` + `wait_until="networkidle"`.
+Akamai was serving a blocked/redirect page instead of the real SPA.  `networkidle`
+fired on that blocked page (it is still "idle"), so the callback never saw the
+target API URL and the scraper returned `None` / "no availability".
+
+### Fix 1 — use `expect_response()` instead of a passive listener
+
+Replace the `page.on("response", …)` + `networkidle` pattern with Playwright's
+`page.expect_response()` context manager:
+
+```python
+with page.expect_response(
+    lambda r: TARGET_URL_FRAGMENT in r.url and r.status == 200,
+    timeout=90_000,
+) as response_info:
+    page.goto(page_url, wait_until="domcontentloaded", timeout=60_000)
+raw = response_info.value.json()
+```
+
+**Why:** `expect_response` actively waits up to 90 s for a matching response
+regardless of network idle state.  It also raises a `TimeoutError` if the API
+never fires (visible in the logs), rather than silently returning nothing.
+`wait_until="domcontentloaded"` is used instead of `"networkidle"` so the
+`goto` does not prematurely resolve on the bot-blocked page.
+
+### Fix 2 — suppress the `navigator.webdriver` flag
+
+Inject a script into the page context *before* any page scripts run:
+
+```python
+_STEALTH_JS = """
+Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
+Object.defineProperty(navigator, 'plugins',   { get: () => [1, 2, 3] });
+"""
+context.add_init_script(_STEALTH_JS)
+```
+
+**Why:** `navigator.webdriver === true` is the first signal Akamai checks.
+`languages` and `plugins` being empty are secondary fingerprint checks also
+used in the scoring.
+
+### Fix 3 — pass `--disable-blink-features=AutomationControlled`
+
+```python
+browser = p.chromium.launch(
+    headless=True,
+    args=["--disable-blink-features=AutomationControlled", "--no-sandbox"],
+)
+```
+
+**Why:** This flag prevents Chrome from advertising its automation mode via the
+`chrome.runtime` and `window.chrome` objects that Akamai also reads.
+
+### Fix 4 — set a realistic browser context fingerprint
+
+```python
+context = browser.new_context(
+    user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+               "AppleWebKit/537.36 (KHTML, like Gecko) "
+               "Chrome/148.0.0.0 Safari/537.36",
+    viewport={"width": 1440, "height": 900},
+    locale="en-US",
+    timezone_id="America/Los_Angeles",
+    java_script_enabled=True,
+)
+```
+
+**Why:** A missing or inconsistent viewport, locale, or timezone is a secondary
+bot signal.  The UA string must match the version of Chromium that Playwright
+actually downloads (check with `playwright --version`).
+
+### All four fixes are implemented in `southwest/scraper.py` in `_make_context()`
+
+If Southwest starts blocking again after a period of time, the most likely
+causes in order are:
+
+1. Akamai updated its fingerprint checks — extend `_STEALTH_JS` with additional
+   property overrides (e.g. `navigator.hardwareConcurrency`, `screen.colorDepth`).
+2. The Playwright Chromium version is outdated — run `playwright install chromium`
+   to update.
+3. The headless UA string no longer matches the installed Chromium — update the
+   `user_agent` string in `_make_context()`.
+4. Akamai added a JS challenge that requires interaction before the API fires —
+   add a `page.wait_for_selector()` for a known UI element before the
+   `expect_response` block.
+

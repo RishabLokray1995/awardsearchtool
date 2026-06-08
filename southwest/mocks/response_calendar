@@ -1,0 +1,2674 @@
+{
+    "success": true,
+    "data": {
+        "searchResults": [
+            {
+                "destinationAirportCode": "SAN",
+                "originationAirportCode": "SEA",
+                "international": false,
+                "currencyCode": "POINTS",
+                "lowFareCalendarDays": [
+                    {
+                        "date": "2026-08-01",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "27000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "27000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-02",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-03",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-04",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-05",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-06",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-07",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-08",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-09",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-10",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-11",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-12",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-13",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-14",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-15",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-16",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-17",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-18",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-19",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-20",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-21",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-22",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-23",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-24",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-25",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-26",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "6000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "13500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "18000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-27",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-28",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "16500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-29",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-30",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "8500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "11000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "21000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "date": "2026-08-31",
+                        "fares": {
+                            "WGARED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "7500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "10000"
+                                }
+                            },
+                            "PLURED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "9500"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "12000"
+                                }
+                            },
+                            "ANYRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "15000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "17500"
+                                }
+                            },
+                            "BUSRED": {
+                                "baseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "19000"
+                                },
+                                "totalTaxesAndFees": {
+                                    "currencyCode": "USD",
+                                    "value": "5.60"
+                                },
+                                "originalFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                },
+                                "unDiscountedBaseFare": {
+                                    "currencyCode": "POINTS",
+                                    "value": "22000"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

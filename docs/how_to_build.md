@@ -317,8 +317,8 @@ from alaska.parser import parse_award_data
 from alaska.scraper import fetch_flight_rows
 
 # With:
-from united.parser import parse_award_data
-from united.scraper import fetch_flight_rows
+from southwest.parser import parse_award_data
+from southwest.scraper import fetch_flight_rows
 ```
 
 Everything else (`db.py`, `config.py`, the matrix loop, delays, SQLite insert) is shared and unchanged.

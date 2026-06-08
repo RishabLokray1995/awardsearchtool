@@ -2,11 +2,18 @@ from datetime import date, timedelta
 
 # --- Search Matrix (shared by Alaska + AA) ---
 ORIGINS = ["SEA"]
-DESTINATIONS = ["NRT"]   # example: Seattle → Tokyo
+DESTINATIONS = ["SAN"]   # example: Seattle → Tokyo
 DATE_RANGE_DAYS = 3           # search the next N days starting today (Alaska)
 
 # --- Alaska Output ---
 ALASKA_DB_PATH = "output/alaska_awards.db"
+
+# --- Southwest Airlines ---
+SOUTHWEST_DB_PATH = "output/southwest_awards.db"
+# Number of days ahead to search for Southwest (same window as Alaska by default)
+SOUTHWEST_DATE_RANGE_DAYS = DATE_RANGE_DAYS
+# Number of calendar months to search for SW calendar search (1 = current month only)
+SOUTHWEST_SEARCH_MONTHS = 2
 
 # --- American Airlines ---
 AA_DB_PATH = "output/aa_awards.db"
@@ -59,4 +66,23 @@ def get_aa_month_starts() -> list[str]:
         month = ((month - 1) % 12) + 1
         starts.append(date(year, month, 1).isoformat())
     return starts
+
+
+def get_southwest_month_starts() -> list[str]:
+    """
+    Return the first day of each calendar month to search via the Southwest
+    Low Fare Calendar API.  One API call per month covers all dates in that month.
+
+    Example with SOUTHWEST_SEARCH_MONTHS = 2 and today = 2026-06-08:
+        ["2026-06-01", "2026-07-01"]
+    """
+    today = date.today()
+    starts = []
+    for i in range(SOUTHWEST_SEARCH_MONTHS):
+        month = today.month + i
+        year = today.year + (month - 1) // 12
+        month = ((month - 1) % 12) + 1
+        starts.append(date(year, month, 1).isoformat())
+    return starts
+
 
