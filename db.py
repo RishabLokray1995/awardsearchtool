@@ -1,0 +1,72 @@
+import sqlite3
+from datetime import datetime, timezone
+from pathlib import Path
+
+
+CREATE_TABLE = """
+CREATE TABLE IF NOT EXISTS awards (
+    id              INTEGER PRIMARY KEY AUTOINCREMENT,
+    searched_at     TEXT NOT NULL,
+    origin          TEXT NOT NULL,
+    destination     TEXT NOT NULL,
+    flight_date     TEXT NOT NULL,
+    flight_number   TEXT,
+    departure_time  TEXT,
+    arrival_time    TEXT,
+    carrier         TEXT,
+    cabin           TEXT,
+    miles           INTEGER,
+    taxes_usd       REAL,
+    seats           INTEGER,
+    stops           INTEGER
+);
+"""
+
+
+def init_db(path: str) -> sqlite3.Connection:
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
+    conn = sqlite3.connect(path)
+    conn.execute(CREATE_TABLE)
+    conn.commit()
+    return conn
+
+
+def insert_awards(
+    conn: sqlite3.Connection,
+    awards: list[dict],
+    origin: str,
+    destination: str,
+    flight_date: str,
+) -> None:
+    if not awards:
+        return
+    now = datetime.now(timezone.utc).isoformat()
+    rows = [
+        (
+            now,
+            origin,
+            destination,
+            flight_date,
+            a.get("flight_number"),
+            a.get("departure_time"),
+            a.get("arrival_time"),
+            a.get("carrier"),
+            a.get("cabin"),
+            a.get("miles"),
+            a.get("taxes_usd"),
+            a.get("seats"),
+            a.get("stops"),
+        )
+        for a in awards
+    ]
+    conn.executemany(
+        """
+        INSERT INTO awards
+            (searched_at, origin, destination, flight_date, flight_number,
+             departure_time, arrival_time, carrier, cabin, miles, taxes_usd,
+             seats, stops)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """,
+        rows,
+    )
+    conn.commit()
